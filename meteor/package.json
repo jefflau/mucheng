@@ -2,13 +2,17 @@
   "name": "meteor",
   "private": true,
   "scripts": {
-    "start": "meteor run"
+    "start": "meteor run",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
   "dependencies": {
     "fetch-everywhere": "^1.0.5",
-    "meteor-node-stubs": "~0.2.0"
+    "meteor-node-stubs": "~0.2.0",
+    "moment": "^2.15.1"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
     "flow-bin": "0.33.0"
   }
 }
