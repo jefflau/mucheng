@@ -7,5 +7,8 @@
   "dependencies": {
     "fetch-everywhere": "^1.0.5",
     "meteor-node-stubs": "~0.2.0"
+  },
+  "devDependencies": {
+    "flow-bin": "0.33.0"
   }
 }

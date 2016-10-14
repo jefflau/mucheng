@@ -1,3 +1,9 @@
+//@flow
+
+export function a () {
+  return 7
+}
+
 import { Meteor } from 'meteor/meteor';
 import 'fetch-everywhere'
 
